@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: auto 2%;
+    
+}
+
+.topics {
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+
+ul li{
+    font-size: x-large;
+}
+
+.ubuntu {
+    font-family: 'Ubuntu';
+}
+
+.oswald {
+    font-family: 'Oswald';
+}
+
+.smokum {
+    font-family: 'Smokum';
+    font-size: 48px;
+}
+
+.colorblock {
+    flex: 1;
+    height: 120px;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.colorblock:first-child { margin-left: 0; }
+.colorblock:last-child { margin-right: 0; }
+
+.colors {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+.color1 {
+    background-color: #403031;
+    color: whitesmoke;
+}
+
+.color2 {
+    background-color: #ec3833;
+    color: black;
+}
+
+.color3 {
+    background-color: #fab713;
+    color: black;
+}
+
+@media screen and (max-width: 680px) {
+	.colors .colorblock {
+		flex-basis: 100%;
+		margin: 0 0 5px 0;
+	}
+}
